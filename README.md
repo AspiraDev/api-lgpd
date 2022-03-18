@@ -4,10 +4,10 @@ Esse projeto almeja facilitar a requisição de artigos da Lei Geral de Proteç�
 
 A chamada GET /artigo com o número do artigo de interesse no final do link, retorna um vetor de objetos JSON contendo os seguintes campos:
 
-* `artigo`: Numero do artigo.
-* `capitulo`: Número e descrição resumida do capitulo.
-* `texto`: Texto completo do artigo, contendo incisos e paragragos.
-* `titulo`: Titulo do artigo.
+* `artigo`: Número do artigo.
+* `capitulo`: Número e descrição resumida do capítulo.
+* `texto`: Texto completo do artigo, contendo incisos e parágrafos.
+* `titulo`: Título do artigo.
 
 Ex: 0.0.0.0:8000/artigo1
 
